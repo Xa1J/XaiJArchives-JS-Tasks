@@ -1,0 +1,16 @@
+.box-del__item {
+    border-radius: 12px;
+    padding: 12px 24px;
+    border: none;
+    color: #fff;
+    background-color: red;
+}
+
+.box-del__item.disabled {
+    background-color: red;
+    cursor: no-drop;
+}
+
+.box-del__item:not(.disabled):hover {
+    background-color:red;
+}

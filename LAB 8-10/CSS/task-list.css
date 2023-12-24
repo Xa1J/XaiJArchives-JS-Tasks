@@ -1,0 +1,66 @@
+.board-app__list {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.backlog li {
+    box-shadow: 5px 0px 0px 0px grey inset;
+}
+
+.active li {
+    box-shadow: 5px 0px 0px 0px lightcyan inset;
+}
+
+.done li {
+    box-shadow: 5px 0px 0px 0px lightgreen inset;
+}
+
+.delete li {
+    box-shadow: 5px 0px 0px 0px lightcoral inset;
+}
+
+li {
+    list-style-type: none;
+    padding: 15px 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.box h2 {
+    padding: 8px 12px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    max-width: fit-content;
+}
+
+.backlog h2 {
+    background-color: lightgrey;
+    color: grey;
+}
+
+.active h2 {
+    background-color: lightblue;
+    color: darkcyan;
+}
+
+.done h2 {
+    background-color: lightgreen;
+    color: green;
+}
+
+.delete h2 {
+    background-color: lightcoral;
+    color: red;
+}
+
+.empty {
+    background-color: transparent;
+    border: 1px dashed grey;
+}

@@ -1,0 +1,38 @@
+:root{
+    --padding: 12px 24px;
+}
+.error{
+    margin-top: 10px;
+    color: red;
+    display: none;
+}
+.addtask h2{
+    margin-bottom: 10px;
+}
+.addtask{
+    margin-left: 150px;
+    background-color:white;
+    padding: 30px 40px;
+    max-width: 440px;
+    margin-top: 50px;
+    border-radius: 12px;
+}
+.addtask-box{
+    display: flex;
+    justify-content: space-between;
+}
+.addtask-box input{
+    border-radius: 12px;
+    padding: var(--padding);
+    border: 1px solid grey;
+}
+.addtask-box button{
+    border-radius: 12px;
+    padding: var(--padding);
+    border: none;
+    color: #fff;
+    background-color: blue;
+}
+.addtask-box button:hover{
+    background-color:blue;
+}
